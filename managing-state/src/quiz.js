@@ -50,6 +50,7 @@ export default function Form() {
                     </p>
                 }
             </form>
+        <hr/>
         </>
     );
 }

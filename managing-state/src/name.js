@@ -6,6 +6,7 @@ export default function EditProfile() {
     const [lastName, setLastName] = useState('Dorcas');
 
     return (
+        <>
         <form onSubmit={e => {
             e.preventDefault();
             setIsEditing(!isEditing);
@@ -41,5 +42,7 @@ export default function EditProfile() {
             </button>
             <p><i>Hello, {firstName} {lastName}!</i></p>
         </form>
+    <hr/>
+    </>
     );
 }
